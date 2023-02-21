@@ -1,0 +1,39 @@
+{
+  "name": "eg_contenders_sc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "npx truffle compile --all",
+    "start-ganache": "npx ganache-cli",
+    "test": "npx truffle test --network development"
+  },
+  "author": "ikiag",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
+    "@truffle/contract": "^4.4.11",
+    "dotenv-flow": "^3.2.0",
+    "ganache": "^7.0.3",
+    "keccak256": "^1.0.6",
+    "node-gyp": "^9.0.0",
+    "operator-filter-registry": "^1.4.0",
+    "sol2uml": "^1.1.29",
+    "solc": "^0.8.17",
+    "solidity-docgen": "^0.5.16",
+    "truffle": "^5.5.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@openzeppelin/truffle-upgrades": "^1.13.0",
+    "@truffle/hdwallet-provider": "^2.1.7",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "truffle-plugin-verify": "^0.5.23"
+  }
+}

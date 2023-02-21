@@ -1,0 +1,9 @@
+node_modules
+abi
+.idea
+.env
+receipts
+diagrams
+*_verify.txt
+docs
+.vscode
